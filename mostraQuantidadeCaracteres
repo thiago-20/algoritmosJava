@@ -1,0 +1,25 @@
+package questoes;
+/*
+ * Algoritmo que recebe o nome digitado e mostra a quantidade de caracteres.
+ */
+ 
+import java.util.Scanner;
+
+public class TamanhoString {
+
+
+	public static void main(String[] args) {
+		
+	Scanner scanner = new Scanner(System.in);
+	
+	String nome;
+	int tamanhoNome = 0;
+	
+	System.out.println("Informe o nome: ");
+		nome = scanner.nextLine();
+		tamanhoNome =   nome.length();
+		System.out.println("O nome tem " + tamanhoNome + " caracteres.");
+		
+	}
+	
+}
