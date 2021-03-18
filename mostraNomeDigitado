@@ -1,0 +1,26 @@
+package questoes;
+/*
+ * 
+ * Algoritmo que recebe o nome digitado e mostra o mesmo no terminal
+ * 
+ * 
+ */
+import java.util.Scanner;
+
+public class Strings {
+
+	public static void main(String[] args) {
+		
+		Scanner texto = new Scanner(System.in);
+		String nome;
+	
+		System.out.println("Digite o nome: ");
+		nome = texto.nextLine();
+
+		System.out.println("O nome é: " +nome);
+		
+		
+	
+}
+	
+}
